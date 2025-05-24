@@ -1,0 +1,24 @@
+modLoader="javafml" #mandatory
+loaderVersion="[47,)" #mandatory – passt zu Forge 47.x (für Minecraft 1.20.1)
+license="All Rights Reserved"
+
+[[mods]]
+modId="initguard" #mandatory
+version="1.0.1" #mandatory
+displayName="InitGuard" #mandatory
+authors="stoneveil"
+description='''Protects players from mob targeting and attacks during initial login or load phase, until they move or act.'''
+
+[[dependencies.initguard]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.initguard]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
