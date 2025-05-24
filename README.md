@@ -39,3 +39,6 @@ tick_count_threshold = 100
 check_invincible = true
 check_mobignore = true
 notify_on_guard_removal = false
+```
+
+All Rights Reserved.
